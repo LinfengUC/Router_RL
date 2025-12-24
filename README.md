@@ -4,7 +4,7 @@ This repo is about trainning a RL agent in 3 modes:
 
 - **base**: RL router with prompt+answer embeddings
 - **irt**: base router + IRT prediction features appended to the observation
-- **hard_gate**: base router + IRT “hard gate” (disallow calling a model when IRT predict 0)
+- **hard_gate**: base router + IRT “hard gate” (disallow calling a model when IRT predicts 0)
 
 **Important:** the default preset is a **smoke test** (fast).  
 To get results as expectation, use `--preset full`.
